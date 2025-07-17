@@ -41,7 +41,7 @@ export default function Portfolio() {
               className="text-white font-medium bg-transparent border-none cursor-pointer"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
-              Abdul Wahab
+             M.Ali
             </button>
             <div className="hidden md:flex space-x-6 text-sm text-gray-300">
               <Link href="#services" className="hover:text-white">
@@ -69,14 +69,16 @@ export default function Portfolio() {
               <div>
                 <p className="text-gray-500 text-lg mb-2">Hello</p>
                 <h1 className="text-6xl font-bold leading-tight">
-                  I'm <span className="text-orange-500">Abdul Wahab</span>,<br />
+                  I'm <span className="text-orange-500">Muhammad Ali</span>,<br />
                   Flutter Developer
                 </h1>
               </div>
 
               <p className="text-gray-600 text-lg leading-relaxed max-w-lg">
-                I'm an experienced Flutter developer specializing in cross-platform mobile applications, backend
-                development with Node.js, and creating seamless user experiences.
+               I'm an experienced Flutter developer specializing in building high-quality cross-platform 
+               mobile applications. I also have strong expertise in backend development with Node.js, allowing 
+               me to deliver full-stack solutions. My focus is 
+               on creating seamless, responsive user experiences with clean and maintainable code.
               </p>
 
               <div className="flex space-x-4">
@@ -111,21 +113,21 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <div className="flex justify-center" data-aos="zoom-in">
+            {/* <div className="flex justify-center" data-aos="zoom-in">
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-orange-400 to-red-500 rounded-full"></div>
                 <Avatar className="absolute inset-0 w-80 h-80">
                   <AvatarImage
-                    src="/wahab.jpg"
-                    alt="Abdul Wahab"
+                    src="/mali.jpg"
+                    alt="Muhammad Ali"
                     className="object-cover w-full h-full rounded-full"
                   />
                   <AvatarFallback className="text-6xl bg-gray-200 text-gray-600">
-                    AW
+                    MA
                   </AvatarFallback>
                 </Avatar>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -212,86 +214,88 @@ export default function Portfolio() {
 
       {/* Work Experience - Exact timeline */}
       <section id="work" className="px-6 py-16" data-aos="fade-up">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-black mb-16 text-center">My Work Experience</h2>
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-4xl font-bold text-black mb-16 text-center">My Work Experience</h2>
 
-          <div className="space-y-12">
-            <div className="flex gap-6">
-              <div className="flex-shrink-0 pt-1">
-                <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-              </div>
-              <div className="flex-1">
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-lg font-bold text-black">Mobile Application Developer</h3>
-                    <p className="text-orange-500 font-medium">AZ Solutions, Hyderabad</p>
-                  </div>
-                  <span className="text-sm text-gray-500">March 2025 - Present</span>
-                </div>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Developed enterprise-level mobile applications for e-commerce, food delivery, and taxi services.
-                  Implemented payment gateways and real-time tracking systems.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-6">
-              <div className="flex-shrink-0 pt-1">
-                <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
-              </div>
-              <div className="flex-1">
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-lg font-bold text-black">Freelance Flutter Developer</h3>
-                    <p className="text-gray-600 font-medium">Self-employed, Remote</p>
-                  </div>
-                  <span className="text-sm text-gray-500">2023 - Present</span>
-                </div>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Developed custom hybrid applications for clients. Focused on seamless API integration and ensuring
-                  data consistency in real-time applications.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-6">
-              <div className="flex-shrink-0 pt-1">
-                <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-              </div>
-              <div className="flex-1">
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-lg font-bold text-black">Technical Team Member</h3>
-                    <p className="text-orange-500 font-medium">Google Developers Group - MUET</p>
-                  </div>
-                  <span className="text-sm text-gray-500">Oct 2024 - Present</span>
-                </div>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Collaborated with team members to organize tech workshops and events. Contributed to technical setup
-                  and community knowledge-sharing.
-                </p>
-              </div>
-            </div>
-          </div>
+    <div className="space-y-12">
+      {/* AZ Solution */}
+      <div className="flex gap-6">
+        <div className="flex-shrink-0 pt-1">
+          <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
         </div>
-      </section>
+        <div className="flex-1">
+          <div className="flex justify-between items-start mb-2">
+            <div>
+              <h3 className="text-lg font-bold text-black">Mobile Application Developer</h3>
+              <p className="text-orange-500 font-medium">AZ Solutions, Hyderabad</p>
+            </div>
+            <span className="text-sm text-gray-500">Aug 2024 - Present</span>
+          </div>
+          <p className="text-gray-600 text-sm leading-relaxed">
+            Building and maintaining scalable Flutter apps for e-commerce, food, and ride-sharing platforms with features like real-time tracking and payment integration.
+          </p>
+        </div>
+      </div>
+
+      {/* YAS Solution */}
+      <div className="flex gap-6">
+        <div className="flex-shrink-0 pt-1">
+          <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
+        </div>
+        <div className="flex-1">
+          <div className="flex justify-between items-start mb-2">
+            <div>
+              <h3 className="text-lg font-bold text-black">Flutter Developer</h3>
+              <p className="text-orange-500 font-medium">YAS Solution</p>
+            </div>
+            <span className="text-sm text-gray-500">Jan 2024 - July 2024</span>
+          </div>
+          <p className="text-gray-600 text-sm leading-relaxed">
+            Developed cross-platform apps using Flutter and GetX with Firebase and REST API integrations for services like taxi booking, rewards, and wallet systems.
+          </p>
+        </div>
+      </div>
+
+      {/* Freelancing */}
+      <div className="flex gap-6">
+        <div className="flex-shrink-0 pt-1">
+          <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
+        </div>
+        <div className="flex-1">
+          <div className="flex justify-between items-start mb-2">
+            <div>
+              <h3 className="text-lg font-bold text-black">Freelance Flutter Developer</h3>
+              <p className="text-gray-600 font-medium">Self-employed, Remote</p>
+            </div>
+            <span className="text-sm text-gray-500">2023 - 2024</span>
+          </div>
+          <p className="text-gray-600 text-sm leading-relaxed">
+           Developed custom hybrid applications for clients. Focused on seamless API integration and ensuring
+                  data consistency in real-time applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Why Hire Me Section - Exact layout */}
       <section className="px-6 py-16 bg-gray-50" data-aos="fade-up">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="flex justify-center" data-aos="zoom-in">
-              <div className="relative">
+              {/* <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-orange-400 to-red-500 rounded-full"></div>
                 <Avatar className="absolute inset-0 w-80 h-80">
                   <AvatarImage
-                    src="/wahab.jpg"
-                    alt="Abdul Wahab"
+                    src="/mali.jpg"
+                    alt="Muhammad Ali"
                     className="w-full h-full object-cover"
                   />
-                  <AvatarFallback className="text-6xl bg-gray-200 text-gray-600">AW</AvatarFallback>
+                  <AvatarFallback className="text-6xl bg-gray-200 text-gray-600">MA</AvatarFallback>
                 </Avatar>
-              </div>
+              </div> */}
             </div>
 
             <div className="space-y-8">
@@ -440,19 +444,19 @@ seamless food ordering and delivery experience.
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="flex items-center gap-3 mb-4">
-                    <h3 className="text-2xl font-bold text-black">Primo – Multi-Purpose Ride Application (European-Based)</h3>
+                    <h3 className="text-2xl font-bold text-black">GOZOLT – Multi-Purpose Ride Application (European-Based)</h3>
                     <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                   </div>
                   <p className="text-gray-600 mb-6 leading-relaxed">
-                    Primo is a European-based multi-service application that combines ride booking, eCommerce, and rental features 
-in a single platform. Developed using Flutter and Firebase and Laravel, it offers smooth and efficient user 
-experience across diverse services.
+                    GOZOLT is a European-based multi-service application that combines ride booking, eCommerce, and rental features 
+                    in a single platform. Developed using Flutter and Firebase and Laravel, it offers smooth and efficient user 
+                    experience across diverse services (GOZOLT avaible on play store).
                   </p>
                 </div>
                 <div className="flex items-center justify-center">
                   <div className="w-full h-64 bg-gray-100 border border-dashed border-gray-300 rounded-xl flex items-center justify-center">
                     <img
-                      src="/primoo.png"
+                      src="/gozolt.png"
                       alt="Glaucoma Detection Preview"
                       className="w-full h-64 object-cover rounded-xl shadow-sm border"
                     />
@@ -520,7 +524,7 @@ experience across diverse services.
             <div className="text-left">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                <h3 className="text-xl font-bold">Abdul Wahab Laghari</h3>
+                <h3 className="text-xl font-bold">Muhammad Ali</h3>
               </div>
               <p className="text-gray-400 mb-8 leading-relaxed">
                 I'm always interested in new opportunities and exciting projects. Whether you have a question or just
@@ -529,15 +533,15 @@ experience across diverse services.
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <Phone className="w-5 h-5 text-orange-500" />
-                  <span className="text-gray-300">+92-03083598729</span>
+                  <span className="text-gray-300">+92-03136676801</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="w-5 h-5 text-orange-500" />
-                  <span className="text-gray-300">abdulwahablaghari6@gmail.com</span>
+                  <span className="text-gray-300">muhammadalijanwary1@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Linkedin className="w-5 h-5 text-orange-500" />
-                  <span className="text-gray-300">linkedin.com/in/awahab89</span>
+                  <span className="text-gray-300">www.linkedin.com/in/muhammad-ali-516116267</span>
                 </div>
               </div>
             </div>
@@ -577,15 +581,15 @@ experience across diverse services.
       <footer className="px-6 py-8 bg-gray-900 border-t border-gray-800" data-aos="fade-up">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between text-gray-400 text-sm">
-            <div className="mb-4 md:mb-0">Copyright © 2024 Abdul Wahab Laghari. All Rights Reserved.</div>
+            <div className="mb-4 md:mb-0">Copyright © 2024 Muhammad Ali. All Rights Reserved.</div>
             <div className="flex space-x-6">
-              <Link href="https://www.linkedin.com/in/awahab89/" className="hover:text-orange-500 transition-colors">
+              <Link href="www.linkedin.com/in/muhammad-ali-516116267" className="hover:text-orange-500 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </Link>
-              <Link href="http://github.com/abdulwahab89" className="hover:text-orange-500 transition-colors">
+              <Link href="https://github.com/M-ali122" className="hover:text-orange-500 transition-colors">
                 <Github className="w-5 h-5" />
               </Link>
-              <Link href="mailto:abdulwahablaghari6@gmail.com" className="hover:text-orange-500 transition-colors">
+              <Link href="mailto:muhammadalijanwary1@gmail.com" className="hover:text-orange-500 transition-colors">
                 <Mail className="w-5 h-5" />
               </Link>
             </div>
