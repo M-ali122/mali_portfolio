@@ -135,7 +135,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <div className="flex justify-center" data-aos="zoom-in">
+            {/* <div className="flex justify-center" data-aos="zoom-in">
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-orange-400 to-red-500 rounded-full"></div>
                 <Avatar className="absolute inset-0 w-80 h-80">
@@ -149,7 +149,7 @@ export default function Portfolio() {
                   </AvatarFallback>
                 </Avatar>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
