@@ -21,6 +21,7 @@ import {
   ExternalLink,
 } from "lucide-react"
 import Link from "next/link"
+import { File } from "lucide-react";
 
 export default function Portfolio() {
   useEffect(() => {
@@ -69,7 +70,7 @@ export default function Portfolio() {
               <div>
                 <p className="text-gray-500 text-lg mb-2">Hello</p>
                 <h1 className="text-6xl font-bold leading-tight">
-                  I'm <span className="text-orange-500">Muhammad Ali</span>,<br />
+                  I'm <span className="text-orange-500">Muhammad</span>,<br />
                   Flutter Developer
                 </h1>
               </div>
@@ -81,7 +82,7 @@ export default function Portfolio() {
                on creating seamless, responsive user experiences with clean and maintainable code.
               </p>
 
-              <div className="flex space-x-4">
+              {/* <div className="flex space-x-4">
                 <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full text-sm font-medium">
                   Portfolio
                 </Button>
@@ -91,7 +92,28 @@ export default function Portfolio() {
                 >
                   Hire Me
                 </Button>
-              </div>
+              </div> */}
+
+              <div className="flex space-x-4">
+  <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full text-sm font-medium">
+    Portfolio
+  </Button>
+  <Button
+    variant="outline"
+    className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 rounded-full text-sm font-medium"
+  >
+    Hire Me
+  </Button>
+  {/* Add CV Download Button */}
+  <Link href="/cv/resume.docx" download="Muhammad_Ali_Resume.docx">
+    <Button
+      variant="outline"
+      className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3 rounded-full text-sm font-medium"
+    >
+      Download CV
+    </Button>
+  </Link>
+</div>
 
               <div className="grid grid-cols-2 gap-12 pt-8">
                 <div>
@@ -113,7 +135,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* <div className="flex justify-center" data-aos="zoom-in">
+            <div className="flex justify-center" data-aos="zoom-in">
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-orange-400 to-red-500 rounded-full"></div>
                 <Avatar className="absolute inset-0 w-80 h-80">
@@ -127,7 +149,7 @@ export default function Portfolio() {
                   </AvatarFallback>
                 </Avatar>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
@@ -543,6 +565,16 @@ seamless food ordering and delivery experience.
                   <Linkedin className="w-5 h-5 text-orange-500" />
                   <span className="text-gray-300">www.linkedin.com/in/muhammad-ali-516116267</span>
                 </div>
+                <div className="flex items-center gap-4">
+    <File className="w-5 h-5 text-orange-500" />
+    <Link 
+      href="/cv/resume.docx" 
+      download="Muhammad_Ali_Resume.docx"
+      className="text-gray-300 hover:text-orange-500 hover:underline"
+    >
+      Download My Resume
+    </Link>
+  </div>
               </div>
             </div>
 
