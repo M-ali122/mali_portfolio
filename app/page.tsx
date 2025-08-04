@@ -42,7 +42,7 @@ export default function Portfolio() {
               className="text-white font-medium bg-transparent border-none cursor-pointer"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
-             M.Ali
+              M.Ali
             </button>
             <div className="hidden md:flex space-x-6 text-sm text-gray-300">
               <Link href="#services" className="hover:text-white">
@@ -70,16 +70,16 @@ export default function Portfolio() {
               <div>
                 <p className="text-gray-500 text-lg mb-2">Hello</p>
                 <h1 className="text-6xl font-bold leading-tight">
-                  I'm <span className="text-orange-500">Muhammad</span>,<br />
+                  I'm <span className="text-orange-500">Muhammad Ali</span>,<br />
                   Flutter Developer
                 </h1>
               </div>
 
-              <p className="text-gray-600 text-lg leading-relaxed max-w-lg">
-               I'm an experienced Flutter developer specializing in building high-quality cross-platform 
-               mobile applications. I also have strong expertise in backend development with Node.js, allowing 
-               me to deliver full-stack solutions. My focus is 
-               on creating seamless, responsive user experiences with clean and maintainable code.
+              <p className="text-gray-700 text-lg leading-relaxed max-w-lg">
+                I'm an experienced Flutter developer specializing in building high-quality cross-platform
+                mobile applications. I also have strong expertise in backend development with Node.js, allowing
+                me to deliver full-stack solutions. My focus is
+                on creating seamless, responsive user experiences with clean and maintainable code.
               </p>
 
               {/* <div className="flex space-x-4">
@@ -95,25 +95,25 @@ export default function Portfolio() {
               </div> */}
 
               <div className="flex space-x-4">
-  <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full text-sm font-medium">
-    Portfolio
-  </Button>
-  <Button
-    variant="outline"
-    className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 rounded-full text-sm font-medium"
-  >
-    Hire Me
-  </Button>
-  {/* Add CV Download Button */}
-  <Link href="/cv/resume.docx" download="Muhammad_Ali_Resume.docx">
-    <Button
-      variant="outline"
-      className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3 rounded-full text-sm font-medium"
-    >
-      Download CV
-    </Button>
-  </Link>
-</div>
+                <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full text-sm font-medium">
+                  Portfolio
+                </Button>
+                <Button
+                  variant="outline"
+                  className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 rounded-full text-sm font-medium"
+                >
+                  Hire Me
+                </Button>
+                {/* Add CV Download Button */}
+                <Link href="/cv/Muhammad Ali.pdf" download="Muhammad_Ali_Resume.pdf">
+                  <Button
+                    variant="outline"
+                    className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3 rounded-full text-sm font-medium"
+                  >
+                    Download CV
+                  </Button>
+                </Link>
+              </div>
 
               <div className="grid grid-cols-2 gap-12 pt-8">
                 <div>
@@ -125,7 +125,7 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-black mb-1">10+</div>
+                  <div className="text-4xl font-bold text-black mb-1">15+</div>
                   <div className="text-gray-600 text-sm leading-tight">
                     Completed
                     <br />
@@ -134,13 +134,13 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-
-            {/* <div className="flex justify-center" data-aos="zoom-in">
+            {/* 
+            <div className="flex justify-center" data-aos="zoom-in">
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-orange-400 to-red-500 rounded-full"></div>
                 <Avatar className="absolute inset-0 w-80 h-80">
-                  <AvatarImage
-                    src="/mali.jpg"
+                  <AvatarImage 
+                    src="/mhd.jpg"
                     alt="Muhammad Ali"
                     className="object-cover w-full h-full rounded-full"
                   />
@@ -236,70 +236,70 @@ export default function Portfolio() {
 
       {/* Work Experience - Exact timeline */}
       <section id="work" className="px-6 py-16" data-aos="fade-up">
-  <div className="max-w-4xl mx-auto">
-    <h2 className="text-4xl font-bold text-black mb-16 text-center">My Work Experience</h2>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold text-black mb-16 text-center">My Work Experience</h2>
 
-    <div className="space-y-12">
-      {/* AZ Solution */}
-      <div className="flex gap-6">
-        <div className="flex-shrink-0 pt-1">
-          <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-        </div>
-        <div className="flex-1">
-          <div className="flex justify-between items-start mb-2">
-            <div>
-              <h3 className="text-lg font-bold text-black">Mobile Application Developer</h3>
-              <p className="text-orange-500 font-medium">AZ Solutions, Hyderabad</p>
+          <div className="space-y-12">
+            {/* AZ Solution */}
+            <div className="flex gap-6">
+              <div className="flex-shrink-0 pt-1">
+                <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
+              </div>
+              <div className="flex-1">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-lg font-bold text-black">Mobile Application Developer</h3>
+                    <p className="text-orange-500 font-medium">AZ Solutions, Hyderabad</p>
+                  </div>
+                  <span className="text-sm text-gray-500">Aug 2024 - Present</span>
+                </div>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Building and maintaining scalable Flutter apps for e-commerce, food, and ride-sharing platforms with features like real-time tracking and payment integration.
+                </p>
+              </div>
             </div>
-            <span className="text-sm text-gray-500">Aug 2024 - Present</span>
-          </div>
-          <p className="text-gray-600 text-sm leading-relaxed">
-            Building and maintaining scalable Flutter apps for e-commerce, food, and ride-sharing platforms with features like real-time tracking and payment integration.
-          </p>
-        </div>
-      </div>
 
-      {/* YAS Solution */}
-      <div className="flex gap-6">
-        <div className="flex-shrink-0 pt-1">
-          <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-        </div>
-        <div className="flex-1">
-          <div className="flex justify-between items-start mb-2">
-            <div>
-              <h3 className="text-lg font-bold text-black">Flutter Developer</h3>
-              <p className="text-orange-500 font-medium">YAS Solution</p>
+            {/* YAS Solution */}
+            <div className="flex gap-6">
+              <div className="flex-shrink-0 pt-1">
+                <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
+              </div>
+              <div className="flex-1">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-lg font-bold text-black">Flutter Developer</h3>
+                    <p className="text-orange-500 font-medium">YAS Solution</p>
+                  </div>
+                  <span className="text-sm text-gray-500">Jan 2024 - July 2024</span>
+                </div>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Developed cross-platform apps using Flutter and GetX with Firebase and REST API integrations for services like taxi booking, rewards, and wallet systems.
+                </p>
+              </div>
             </div>
-            <span className="text-sm text-gray-500">Jan 2024 - July 2024</span>
-          </div>
-          <p className="text-gray-600 text-sm leading-relaxed">
-            Developed cross-platform apps using Flutter and GetX with Firebase and REST API integrations for services like taxi booking, rewards, and wallet systems.
-          </p>
-        </div>
-      </div>
 
-      {/* Freelancing */}
-      <div className="flex gap-6">
-        <div className="flex-shrink-0 pt-1">
-          <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
-        </div>
-        <div className="flex-1">
-          <div className="flex justify-between items-start mb-2">
-            <div>
-              <h3 className="text-lg font-bold text-black">Freelance Flutter Developer</h3>
-              <p className="text-gray-600 font-medium">Self-employed, Remote</p>
-            </div>
-            <span className="text-sm text-gray-500">2023 - 2024</span>
-          </div>
-          <p className="text-gray-600 text-sm leading-relaxed">
-           Developed custom hybrid applications for clients. Focused on seamless API integration and ensuring
+            {/* Freelancing */}
+            <div className="flex gap-6">
+              <div className="flex-shrink-0 pt-1">
+                <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
+              </div>
+              <div className="flex-1">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-lg font-bold text-black">Freelance Flutter Developer</h3>
+                    <p className="text-gray-600 font-medium">Self-employed, Remote</p>
+                  </div>
+                  <span className="text-sm text-gray-500">2023 - 2024</span>
+                </div>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Developed custom hybrid applications for clients. Focused on seamless API integration and ensuring
                   data consistency in real-time applications.
-          </p>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
 
       {/* Why Hire Me Section - Exact layout */}
@@ -422,9 +422,9 @@ export default function Portfolio() {
                     <div className="w-2 h-2 bg-red-500 rounded-full"></div>
                   </div>
                   <p className="text-gray-600 mb-6 leading-relaxed">
-                    Animates App - Dating app for anime lovers in the US and Canada!  
-A location-based dating application designed specifically for anime enthusiasts across the US and Canada. Built using 
-Flutter and Firebase, the app delivers a smooth and personalized user experience tailored to its unique audience.
+                    Animates App - Dating app for anime lovers in the US and Canada!
+                    A location-based dating application designed specifically for anime enthusiasts across the US and Canada. Built using
+                    Flutter and Firebase, the app delivers a smooth and personalized user experience tailored to its unique audience.
                   </p>
                 </div>
                 <div className="flex items-center justify-center">
@@ -446,9 +446,9 @@ Flutter and Firebase, the app delivers a smooth and personalized user experience
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                   </div>
                   <p className="text-gray-600 mb-6 leading-relaxed">
-                    Snappy is a Canada-based multi-solution eCommerce food delivery platform built using Flutter and Firebase. The 
-system consists of three interconnected mobile applications tailored for drivers, vendors, and users to ensure 
-seamless food ordering and delivery experience.
+                    Snappy is a Canada-based multi-solution eCommerce food delivery platform built using Flutter and Firebase. The
+                    system consists of three interconnected mobile applications tailored for drivers, vendors, and users to ensure
+                    seamless food ordering and delivery experience.
                   </p>
                 </div>
                 <div className="flex items-center justify-center">
@@ -470,8 +470,8 @@ seamless food ordering and delivery experience.
                     <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                   </div>
                   <p className="text-gray-600 mb-6 leading-relaxed">
-                    GOZOLT is a European-based multi-service application that combines ride booking, eCommerce, and rental features 
-                    in a single platform. Developed using Flutter and Firebase and Laravel, it offers smooth and efficient user 
+                    GOZOLT is a European-based multi-service application that combines ride booking, eCommerce, and rental features
+                    in a single platform. Developed using Flutter and Firebase and Laravel, it offers smooth and efficient user
                     experience across diverse services (GOZOLT avaible on play store).
                   </p>
                 </div>
@@ -566,15 +566,15 @@ seamless food ordering and delivery experience.
                   <span className="text-gray-300">www.linkedin.com/in/muhammad-ali-516116267</span>
                 </div>
                 <div className="flex items-center gap-4">
-    <File className="w-5 h-5 text-orange-500" />
-    <Link 
-      href="/cv/resume.docx" 
-      download="Muhammad_Ali_Resume.docx"
-      className="text-gray-300 hover:text-orange-500 hover:underline"
-    >
-      Download My Resume
-    </Link>
-  </div>
+                  <File className="w-5 h-5 text-orange-500" />
+                  <Link
+                    href="/cv/Muhammad Ali.pdf"
+                    download="Muhammad_Ali_Resume.pdf"
+                    className="text-gray-300 hover:text-orange-500 hover:underline"
+                  >
+                    Download My Resume
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -582,25 +582,48 @@ seamless food ordering and delivery experience.
               <Card className="bg-gray-800 border-gray-700">
                 <CardContent className="p-6">
                   <div className="space-y-4">
-                    <input
-                      type="text"
-                      placeholder="Your Name"
-                      className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-orange-500"
-                    />
-                    <input
-                      type="email"
-                      placeholder="Your Email"
-                      className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-orange-500"
-                    />
-                    <textarea
-                      placeholder="Your Message"
-                      rows={4}
-                      className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-orange-500 resize-none"
-                    />
-                    <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg">
-                      <Mail className="w-4 h-4 mr-2" />
-                      Hire Me
-                    </Button>
+                    <form
+                      action="https://formsubmit.co/muhammadalijanwary1@gmail.com"
+                      method="POST"
+                      className="space-y-4"
+                    >
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        required
+                        className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-orange-500"
+                      />
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required
+                        className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-orange-500"
+                      />
+                      <textarea
+                        name="message"
+                        rows={4}
+                        placeholder="Your Message"
+                        required
+                        className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-orange-500 resize-none"
+                      ></textarea>
+
+                      {/* Hidden field to prevent spam */}
+                      <input type="hidden" name="_captcha" value="false" />
+
+                      {/* Redirect after submission (optional) */}
+                      <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" />
+
+                      <button
+                        type="submit"
+                        className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg flex items-center justify-center"
+                      >
+                        <Mail className="w-4 h-4 mr-2" />
+                        Hire Me
+                      </button>
+                    </form>
+
                   </div>
                 </CardContent>
               </Card>
