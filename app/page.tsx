@@ -461,9 +461,7 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div>
-
-              
-{/* Project 3 - GOZOLT Driver App */}
+              {/* Project 3 - GOZOLT Driver App */}
 <div className="grid lg:grid-cols-2 gap-12 items-center">
   <div>
     <div className="flex items-center gap-3 mb-4">
@@ -471,13 +469,19 @@ export default function Portfolio() {
       <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
     </div>
     <p className="text-gray-600 mb-6 leading-relaxed">
-      The <strong>GOZOLT Driver App</strong> is designed specifically for drivers to manage ride requests, earnings, 
-      and service availability efficiently. Built using <strong>Flutter</strong>, <strong>Firebase</strong>, and <strong>Laravel</strong>, 
-      it provides seamless ride tracking, real-time updates, and a smooth user interface for drivers to deliver 
-      reliable services.  
-      <br />  
-      ✅ <em>Available on the Google Play Store.</em>
+      The <strong>GOZOLT Driver App</strong> is designed specifically for drivers to manage ride requests, 
+      track earnings, and handle availability efficiently. Built using <strong>Flutter</strong>, 
+      <strong>Firebase</strong>, and <strong>Laravel</strong>, it offers seamless ride tracking, 
+      real-time updates, and a smooth user experience.  
     </p>
+    <a
+      href="https://play.google.com/store/apps/details?id=com.Primoo.partner&pcampaignid=web_share"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 font-semibold underline hover:text-blue-800 transition"
+    >
+      Download on Play Store
+    </a>
   </div>
   <div className="flex items-center justify-center">
     <div className="w-full h-64 bg-gray-100 border border-dashed border-gray-300 rounded-xl flex items-center justify-center">
@@ -498,13 +502,19 @@ export default function Portfolio() {
       <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
     </div>
     <p className="text-gray-600 mb-6 leading-relaxed">
-      The <strong>GOZOLT GO Rider App</strong> is a European-based multi-service platform that allows customers 
-      to conveniently book rides, shop through integrated eCommerce, and access rental services – all in one app.  
-      Developed with <strong>Flutter</strong>, <strong>Firebase</strong>, and <strong>Laravel</strong>, it ensures a 
-      fast, reliable, and user-friendly experience for riders.  
-      <br />  
-      ✅ <em>Available on the Google Play Store.</em>
+      The <strong>GOZOLT GO Rider App</strong> is a European-based multi-service platform that allows users 
+      to book rides, shop through integrated eCommerce, and access rental services – all in one app.  
+      Developed with <strong>Flutter</strong>, <strong>Firebase</strong>, and <strong>Laravel</strong>, it 
+      ensures a fast, reliable, and user-friendly experience.  
     </p>
+    <a
+      href="https://play.google.com/store/apps/details?id=com.Gozolt.user&pcampaignid=web_share"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 font-semibold underline hover:text-blue-800 transition"
+    >
+      Download on Play Store
+    </a>
   </div>
   <div className="flex items-center justify-center">
     <div className="w-full h-64 bg-gray-100 border border-dashed border-gray-300 rounded-xl flex items-center justify-center">
@@ -516,6 +526,7 @@ export default function Portfolio() {
     </div>
   </div>
 </div>
+              
 </div>
 
           </div>
