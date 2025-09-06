@@ -77,9 +77,9 @@ export default function Portfolio() {
 
               <p className="text-gray-700 text-lg leading-relaxed max-w-lg">
                 I'm an experienced Flutter developer specializing in building high-quality cross-platform
-                mobile applications. I also have strong expertise in backend development with Node.js, allowing
-                me to deliver full-stack solutions. My focus is
-                on creating seamless, responsive user experiences with clean and maintainable code.
+                 mobile applications. I also have strong expertise in backend development with PHP Laravel,
+                  allowing me to deliver robust full-stack solutions. My focus is on creating seamless, 
+                  responsive user experiences with clean and maintainable code.
               </p>
 
               {/* <div className="flex space-x-4">
@@ -178,9 +178,9 @@ export default function Portfolio() {
                 </div>
                 <div className="h-full flex items-center justify-center">
                   <img
-                    src="/icons/nodejs.svg"
+                    src="/icons/laravel.png"
                     alt="Flutter"
-                    className="w-80 h-80"
+                    className="w-80 h-30"
                   />
                 </div>
               </div>
@@ -335,15 +335,15 @@ export default function Portfolio() {
 
               <div className="grid grid-cols-2 gap-12">
                 <div>
-                  <div className="text-4xl font-bold text-black mb-1">500+</div>
+                  <div className="text-4xl font-bold text-black mb-1">2+</div>
                   <div className="text-gray-600 text-sm leading-tight">
-                    Hours of
+                    Year's of
                     <br />
                     Development
                   </div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-black mb-1">2+</div>
+                  <div className="text-4xl font-bold text-black mb-1">1.5+</div>
                   <div className="text-gray-600 text-sm leading-tight">
                     Experience in
                     <br />
@@ -462,30 +462,62 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              {/* Project 3 */}
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <div className="flex items-center gap-3 mb-4">
-                    <h3 className="text-2xl font-bold text-black">GOZOLT – Multi-Purpose Ride Application (European-Based)</h3>
-                    <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  </div>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
-                    GOZOLT is a European-based multi-service application that combines ride booking, eCommerce, and rental features
-                    in a single platform. Developed using Flutter and Firebase and Laravel, it offers smooth and efficient user
-                    experience across diverse services (GOZOLT avaible on play store).
-                  </p>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="w-full h-64 bg-gray-100 border border-dashed border-gray-300 rounded-xl flex items-center justify-center">
-                    <img
-                      src="/gozolt.png"
-                      alt="Glaucoma Detection Preview"
-                      className="w-full h-64 object-cover rounded-xl shadow-sm border"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+              
+{/* Project 3 - GOZOLT Driver App */}
+<div className="grid lg:grid-cols-2 gap-12 items-center">
+  <div>
+    <div className="flex items-center gap-3 mb-4">
+      <h3 className="text-2xl font-bold text-black">GOZOLT – Driver Application (European-Based)</h3>
+      <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+    </div>
+    <p className="text-gray-600 mb-6 leading-relaxed">
+      The <strong>GOZOLT Driver App</strong> is designed specifically for drivers to manage ride requests, earnings, 
+      and service availability efficiently. Built using <strong>Flutter</strong>, <strong>Firebase</strong>, and <strong>Laravel</strong>, 
+      it provides seamless ride tracking, real-time updates, and a smooth user interface for drivers to deliver 
+      reliable services.  
+      <br />  
+      ✅ <em>Available on the Google Play Store.</em>
+    </p>
+  </div>
+  <div className="flex items-center justify-center">
+    <div className="w-full h-64 bg-gray-100 border border-dashed border-gray-300 rounded-xl flex items-center justify-center">
+      <img
+        src="/gozolt.png"
+        alt="GOZOLT Driver App Preview"
+        className="w-full h-64 object-cover rounded-xl shadow-sm border"
+      />
+    </div>
+  </div>
+</div>
+
+{/* Project 4 - GOZOLT GO Rider App */}
+<div className="grid lg:grid-cols-2 gap-12 items-center">
+  <div>
+    <div className="flex items-center gap-3 mb-4">
+      <h3 className="text-2xl font-bold text-black">GOZOLT GO – Rider Application (European-Based)</h3>
+      <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+    </div>
+    <p className="text-gray-600 mb-6 leading-relaxed">
+      The <strong>GOZOLT GO Rider App</strong> is a European-based multi-service platform that allows customers 
+      to conveniently book rides, shop through integrated eCommerce, and access rental services – all in one app.  
+      Developed with <strong>Flutter</strong>, <strong>Firebase</strong>, and <strong>Laravel</strong>, it ensures a 
+      fast, reliable, and user-friendly experience for riders.  
+      <br />  
+      ✅ <em>Available on the Google Play Store.</em>
+    </p>
+  </div>
+  <div className="flex items-center justify-center">
+    <div className="w-full h-64 bg-gray-100 border border-dashed border-gray-300 rounded-xl flex items-center justify-center">
+      <img
+        src="/gozolt_go.png"
+        alt="GOZOLT GO Rider App Preview"
+        className="w-full h-64 object-cover rounded-xl shadow-sm border"
+      />
+    </div>
+  </div>
+</div>
+</div>
+
           </div>
         </div>
       </section>
@@ -555,7 +587,7 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <Phone className="w-5 h-5 text-orange-500" />
-                  <span className="text-gray-300">+92-03136676801</span>
+                  <span className="text-gray-300">+92-3136676801</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="w-5 h-5 text-orange-500" />
