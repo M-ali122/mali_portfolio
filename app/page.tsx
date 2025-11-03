@@ -105,7 +105,7 @@ export default function Portfolio() {
                   Hire Me
                 </Button>
                 {/* Add CV Download Button */}
-                <Link href="/cv/Muhammad Ali.pdf" download="Muhammad_Ali_Resume.pdf">
+                <Link href="/cv/resume.pdf" download="Muhammad_Ali_Resume.pdf">
                   <Button
                     variant="outline"
                     className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3 rounded-full text-sm font-medium"
@@ -526,10 +526,8 @@ export default function Portfolio() {
     </div>
   </div>
 </div>
-              
 </div>
-
-          </div>
+</div>
         </div>
       </section>
 
@@ -611,7 +609,7 @@ export default function Portfolio() {
                 <div className="flex items-center gap-4">
                   <File className="w-5 h-5 text-orange-500" />
                   <Link
-                    href="/cv/Muhammad Ali.pdf"
+                    href="/cv/resume.pdf"
                     download="Muhammad_Ali_Resume.pdf"
                     className="text-gray-300 hover:text-orange-500 hover:underline"
                   >
