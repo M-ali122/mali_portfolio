@@ -104,7 +104,7 @@ export default function Portfolio() {
                 >
                   Hire Me
                 </Button>
-                {/* Add CV Download Button     */}
+                {/* Add CV Download */}
                 <Link href="/cv/Muhammad's Resume.pdf" download="Muhammad_Ali_Resume.pdf">
                   <Button
                     variant="outline"
