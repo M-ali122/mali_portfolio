@@ -34,7 +34,7 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Navigation - Exact match */}
+      {/* Navigation - Exact match   */}
       <div className="px-4 pt-4 flex justify-center sticky top-0 z-50" data-aos="fade-down">
         <nav className="bg-black text-white px-6 py-3 rounded-full inline-flex items-center">
           <div className="flex items-center space-x-8">
