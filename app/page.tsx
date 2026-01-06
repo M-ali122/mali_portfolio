@@ -4,6 +4,7 @@ import { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { Button } from "@/components/ui/button"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -108,7 +109,7 @@ export default function Portfolio() {
                 <Link href="/cv/Muhammad's Resume.pdf" download="Muhammad_Ali_Resume.pdf">
                   <Button
                     variant="outline"
-                    className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3 rounded-full text-sm font-medium"
+                    className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3 rounded-full text-sm font-medium" 
                   >
                     Download CV
                   </Button>
