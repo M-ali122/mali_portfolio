@@ -34,7 +34,7 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Navigation - Exact match   */}
+      {/* Navigation - Exact match */}
       <div className="px-4 pt-4 flex justify-center sticky top-0 z-50" data-aos="fade-down">
         <nav className="bg-black text-white px-6 py-3 rounded-full inline-flex items-center">
           <div className="flex items-center space-x-8">
@@ -105,7 +105,7 @@ export default function Portfolio() {
                   Hire Me
                 </Button>
                 {/* Add CV Download Button */}
-                <Link href="/cv/resume.pdf" download="Muhammad's Resume.pdf">
+                <Link href="/cv/Muhammad's Resume.pdf" download="Muhammad_Ali_Resume.pdf">
                   <Button
                     variant="outline"
                     className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3 rounded-full text-sm font-medium"
@@ -609,8 +609,8 @@ export default function Portfolio() {
                 <div className="flex items-center gap-4">
                   <File className="w-5 h-5 text-orange-500" />
                   <Link
-                    href="/cv/resume.pdf"
-                    download="Muhammad's Resume.pdf"
+                    href="/cv/Muhammad's Resume.pdf"
+                    download="Muhammad_Ali_Resume.pdf"
                     className="text-gray-300 hover:text-orange-500 hover:underline"
                   >
                     Download My Resume
